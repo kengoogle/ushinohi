@@ -86,8 +86,8 @@
     <div class="cloud cloud1"></div>
     <div class="cloud cloud2"></div>
     <div class="container">
-        <h1 style="font-size: 7vw;">Let’ｓ　はらわた！！</h1>
-        <p style="font-size: 4vw;">「土用の丑にはらわた餅を食べよう」</p>
+        <h1 style="font-size: 7vw;">Let’ｓ　おかもとGAME！！</h1>
+        <p style="font-size: 4vw;">「きみしょうがっこうにひかりあれ」</p>
         <div id="puzzle" class="grid"></div>
         <button id="startButton">スタート</button>
         <p id="message" style="font-size: 5vw; font-weight: bold; color: #4CAF50;"></p>
@@ -95,7 +95,7 @@
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const characters = ['土', '用', 'の', '丑', 'に', 'は', 'ら', 'わ', 'た', '餅', 'を', '食', 'べ', 'よ', 'う', ''];
+        const characters = ['き', 'み', 'し', 'ょ', 'う', 'が', 'っ', 'こ', 'う', 'に', 'ひ', 'か', 'り', 'あ', 'れ', ''];
         let tiles = [...characters];
         let isStarted = false;
         let movingTile = null;
@@ -144,9 +144,9 @@
                 
                 setTimeout(() => {
                     if (isSolved()) {
-                        document.getElementById('message').textContent = 'おめでとう、さあ楽しもう';
+                        document.getElementById('message').textContent = 'おめでとう、さあ聞いてくれ';
                         setTimeout(() => {
-                            window.location.href = 'https://youtu.be/GEeahvo8_OY';
+                            window.location.href = 'https://youtu.be/BMQTipnhKec';
                         }, 5000);
                     }
                 }, 500);
